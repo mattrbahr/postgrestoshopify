@@ -1,0 +1,20 @@
+baseURL = "http://example.org/"
+languageCode = "en-us"
+title = "Shopify To Postgres"
+theme = "hugo-paper"
+
+[params]
+    ShowDatesOnPosts = true
+
+[menu]
+    [[menu.main]]
+    identifier = "Getting-Started"
+    name       = "Getting Started"
+    url        = "/getting-started"
+    weight     = 1
+
+    [[menu.main]]
+    identifier = "About"
+    name       = "About"
+    url        = "/about"
+    weight     = 0
